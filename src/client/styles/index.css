@@ -1,0 +1,56 @@
+html,
+body {
+  background: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav */
+
+.nav {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.nav h1 {
+  text-shadow: 3px 3px wheat;
+}
+
+/* Filter */
+
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.filter input {
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  box-shadow: 3px 3px 0 wheat;
+}
+
+/* List */
+
+.character__list {
+  list-style: none;
+  display: grid;
+  place-items: center center;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+.character img {
+  border-radius: 1rem;
+}
+.character h2 {
+  font-size: 1.2rem;
+}
