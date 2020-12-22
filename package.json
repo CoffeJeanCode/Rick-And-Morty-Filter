@@ -7,7 +7,7 @@
     "dev": "nodemon dist/server",
     "start": "node dist/server",
     "clean": "rimraf dist",
-    "build": "yarn clean && node scripts/buildProduction",
+    "build": "npm run clean clean && node scripts/buildProduction",
     "build:server": "node scripts/buildServer",
     "build:client": "node scripts/buildClient"
   },
